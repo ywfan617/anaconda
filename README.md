@@ -1,35 +1,34 @@
-<<<<<<< HEAD
 # introduction  
 
 notes of anaconda  
 
-# anacondaÑ§Ï°  
+# anacondaå­¦ä¹   
 
-## anaconda³£ÓÃÃüÁî  
+## anacondaå¸¸ç”¨å‘½ä»¤  
 
 ```bash
-    conda create [env] python=3 #´´½¨»·¾³
+    conda create [env] python=3 #åˆ›å»ºç¯å¢ƒ
     # conda create -n learn python=3
-    conda env list #ÁĞ³ö»·¾³
-    activate #activate ÄÜ½«ÎÒÃÇÒıÈëanacondaÉè¶¨µÄĞéÄâ»·¾³ÖĞ, Èç¹ûÄãºóÃæÊ²Ã´²ÎÊı¶¼²»¼ÓÄÇÃ´»á½øÈëanaconda×Ô´øµÄbase»·¾³
-    source activate learn #ÇĞ»»»·¾³
-    conda env export > environment.yaml #µ¼Èëµ¼³ö»·¾³
-    conda env create -f environment.yaml #µ±ĞèÒªÖØĞÂ´´½¨Ò»¸öÏàÍ¬µÄĞéÄâ»·¾³Ê±¿ÉÒÔÓÃ
-    conda env remove -n env_name #É¾³ı»·¾³
+    conda env list #åˆ—å‡ºç¯å¢ƒ
+    activate #activate èƒ½å°†æˆ‘ä»¬å¼•å…¥anacondaè®¾å®šçš„è™šæ‹Ÿç¯å¢ƒä¸­, å¦‚æœä½ åé¢ä»€ä¹ˆå‚æ•°éƒ½ä¸åŠ é‚£ä¹ˆä¼šè¿›å…¥anacondaè‡ªå¸¦çš„baseç¯å¢ƒ
+    source activate learn #åˆ‡æ¢ç¯å¢ƒ
+    conda env export > environment.yaml #å¯¼å…¥å¯¼å‡ºç¯å¢ƒ
+    conda env create -f environment.yaml #å½“éœ€è¦é‡æ–°åˆ›å»ºä¸€ä¸ªç›¸åŒçš„è™šæ‹Ÿç¯å¢ƒæ—¶å¯ä»¥ç”¨
+    conda env remove -n env_name #åˆ é™¤ç¯å¢ƒ
 ```
 
 ```bash
-    conda --version #¼ì²é°æ±¾ºÅ
-    conda upgrade --all #¸üĞÂÈí¼ş°ü
-    conda install requests #°²×°µÚÈı·½¿â
-    conda remove requests #Ğ¶ÔØ´óÈı·½¿â
-    conda list #²é¿´µ±Ç°°üµÄĞÅÏ¢
-    conda info #Õ¹Ê¾µ±Ç°condaµÄÒ»Ğ©ĞÅÏ¢
-    conda search package #²éÑ¯°ü
+    conda --version #æ£€æŸ¥ç‰ˆæœ¬å·
+    conda upgrade --all #æ›´æ–°è½¯ä»¶åŒ…
+    conda install requests #å®‰è£…ç¬¬ä¸‰æ–¹åº“
+    conda remove requests #å¸è½½å¤§ä¸‰æ–¹åº“
+    conda list #æŸ¥çœ‹å½“å‰åŒ…çš„ä¿¡æ¯
+    conda info #å±•ç¤ºå½“å‰condaçš„ä¸€äº›ä¿¡æ¯
+    conda search package #æŸ¥è¯¢åŒ…
 ```
 
-## É¾³ıanaconda  
+## åˆ é™¤anaconda  
 
 ```bash
-    rm -rf anaconda #°Ñ ~/.bashrcµÄ»·¾³±äÁ¿Çå³ıµô
+    rm -rf anaconda #æŠŠ ~/.bashrcçš„ç¯å¢ƒå˜é‡æ¸…é™¤æ‰
 ```  
