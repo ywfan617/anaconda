@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # introduction  
 
 notes of anaconda  
