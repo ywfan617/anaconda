@@ -7,11 +7,11 @@ notes of anaconda
 ## anaconda常用命令  
 
 ```bash
-    conda create [env] python=3 #创建环境
-    # conda create -n learn python=3
+    conda create -n envname python=3 #创建环境
+    # conda create -n pyqt5_learning python=3.7
     conda env list #列出环境
     activate #activate 能将我们引入anaconda设定的虚拟环境中, 如果你后面什么参数都不加那么会进入anaconda自带的base环境
-    source activate learn #切换环境
+    [source] activate learn #[linux]win下切换环境
     conda env export > environment.yaml #导入导出环境
     conda env create -f environment.yaml #当需要重新创建一个相同的虚拟环境时可以用
     conda env remove -n env_name #删除环境
@@ -31,4 +31,4 @@ notes of anaconda
 
 ```bash
     rm -rf anaconda #把 ~/.bashrc的环境变量清除掉
-```  
+```
